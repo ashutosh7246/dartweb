@@ -22,3 +22,5 @@
 4. If you dont want to use Dart Editor, just open the terminal inside repo folder you have pulled
 5. run `pub get` or `pub get packages`, it will install all required packages
 6. run `webdev serve`, it will start web server at http://localhost:8080
+
+## Note: If dartium browser is giving error then open the url in chrome browser
