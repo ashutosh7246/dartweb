@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+#map-canvas {
+  height: 100%;
+  margin: 0;
+}
+
+.map-cont {
+  height: 300px;
+}
+
+.well {
+  margin: 0px;
+}
+
+.h3, h3 {
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+
+.borderless td, .borderless th, .borderless tr {
+  border: none !important;
+}

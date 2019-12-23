@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Maps app</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+  <script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCnmSy_PuAAOO3p0Xz_5FSJr190jPk1n9s"></script>
+  <script async type="application/dart" src="maps_app.dart"></script>
+  <script async src="packages/browser/dart.js"></script>
+
+  <link rel="stylesheet" href="maps_app.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="#">MapApp...</a>
+      </div>
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4 col-sm-4 col-xs-12">
+        <div id="detail-list" class="list-group">
+        </div>
+      </div>
+      <div class="col-md-8 col-sm-8 col-xs-12">
+        <div class="map-cont">
+          <div id="map-canvas"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 col-sm-12 col-xs-12">
+        <h3>
+          <div class="well well-sm">
+            Usage Stats - <span id="stats-days"></span> days
+          </div>
+        </h3>
+        <div class="row">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <h3>Shipments</h3>
+            <div id=shipment-list class="list-group">
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <h3>Assets</h3>
+            <div id="asset-list" class="list-group">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
