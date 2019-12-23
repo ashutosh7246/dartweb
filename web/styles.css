@@ -18,7 +18,7 @@ html, body {
 }
 
 .well {
-  margin: 0px;
+  margin: 0px !important;
 }
 
 .h3, h3 {

@@ -23,7 +23,7 @@ void main() {
 
 void loadContent (map) {
   HttpRequest.getString("data.json").then((jsonData){
-    final data = JSON.decode(jsonData);
+    final data = jsonDecode(jsonData);
     
     final statsDays = data["days"];
     final detailList = data["detail"];

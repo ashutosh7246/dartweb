@@ -1,156 +1,156 @@
 {
-   "days": 30,
-   "detail": {
-      "Bees": 9,
-      "Hubs": 7,
-      "Locations": 57,
-      "Users": 29
-   },
-   "stats": {
-      "shipment_detail": {
-         "Shipments": 2701,
-         "Km": 10933,
-         "Hours": 789
-      },
-      "asset_detail": {
-         "Assets": 501,
-         "Facilities": 7,
-         "Zones": 27
-      }
-   },
-   "locations": [
-      {
-         "id": "1",
-         "name": "Arabian Sea",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 16.289339,
-               "lng": 64.756883
-            }
-         }
-      },
-      {
-         "id": "2",
-         "name": "Laccadive Sea",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 7.263141,
-               "lng": 78.092545
-            }
-         }
-      },
-      {
-         "id": "3",
-         "name": "South China Sea",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 2.037715,
-               "lng": 106.217462
-            }
-         }
-      },
-      {
-         "id": "4",
-         "name": "South China Sea",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 19.243907,
-               "lng": 115.533869
-            }
-         }
-      },
-      {
-         "id": "5",
-         "name": "Philippine Sea",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 5.370109,
-               "lng": 130.826837
-            }
-         }
-      },
-      {
-         "id": "6",
-         "name": "Indian Ocean",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": -17.879259,
-               "lng": 118.873712
-            }
-         }
-      },
-      {
-         "id": "7",
-         "name": "Mozambique Channel",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": -23.950950,
-               "lng": 39.244806
-            }
-         }
-      },
-      {
-         "id": "8",
-         "name": "Gulf of Oman",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 24.462315,
-               "lng": 59.283869
-            }
-         }
-      },
-      {
-         "id": "9",
-         "name": "Mediterranean Sea",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 33.665075,
-               "lng": 30.983088
-            }
-         }
-      },
-      {
-         "id": "10",
-         "name": "North Atlantic Ocean",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 51.464387,
-               "lng": -6.282538
-            }
-         }
-      },
-      {
-         "id": "11",
-         "name": "Other Northeast Gillnet Waters Area United States",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 43.401188,
-               "lng": -68.509100
-            }
-         }
-      },
-      {
-         "id": "12",
-         "name": "Gulf of Mexico",
-         "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
-         "geometry": {
-            "location": {
-               "lat": 26.052010,
-               "lng": -85.208318
-            }
-         }
-      }
-   ],
-   "status": "OK"
-}
+    "days": 30,
+    "detail": {
+       "Bees": 9,
+       "Hubs": 7,
+       "Locations": 57,
+       "Users": 29
+    },
+    "stats": {
+       "shipment_detail": {
+          "Shipments": 2701,
+          "Km": 10933,
+          "Hours": 789
+       },
+       "asset_detail": {
+          "Assets": 501,
+          "Facilities": 7,
+          "Zones": 27
+       }
+    },
+    "locations": [
+       {
+          "id": "1",
+          "name": "Arabian Sea",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 16.289339,
+                "lng": 64.756883
+             }
+          }
+       },
+       {
+          "id": "2",
+          "name": "Laccadive Sea",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 7.263141,
+                "lng": 78.092545
+             }
+          }
+       },
+       {
+          "id": "3",
+          "name": "South China Sea",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 2.037715,
+                "lng": 106.217462
+             }
+          }
+       },
+       {
+          "id": "4",
+          "name": "South China Sea",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 19.243907,
+                "lng": 115.533869
+             }
+          }
+       },
+       {
+          "id": "5",
+          "name": "Philippine Sea",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 5.370109,
+                "lng": 130.826837
+             }
+          }
+       },
+       {
+          "id": "6",
+          "name": "Indian Ocean",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": -17.879259,
+                "lng": 118.873712
+             }
+          }
+       },
+       {
+          "id": "7",
+          "name": "Mozambique Channel",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": -23.950950,
+                "lng": 39.244806
+             }
+          }
+       },
+       {
+          "id": "8",
+          "name": "Gulf of Oman",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 24.462315,
+                "lng": 59.283869
+             }
+          }
+       },
+       {
+          "id": "9",
+          "name": "Mediterranean Sea",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 33.665075,
+                "lng": 30.983088
+             }
+          }
+       },
+       {
+          "id": "10",
+          "name": "North Atlantic Ocean",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 51.464387,
+                "lng": -6.282538
+             }
+          }
+       },
+       {
+          "id": "11",
+          "name": "Other Northeast Gillnet Waters Area United States",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 43.401188,
+                "lng": -68.509100
+             }
+          }
+       },
+       {
+          "id": "12",
+          "name": "Gulf of Mexico",
+          "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/bar-71.png",
+          "geometry": {
+             "location": {
+                "lat": 26.052010,
+                "lng": -85.208318
+             }
+          }
+       }
+    ],
+    "status": "OK"
+ }
