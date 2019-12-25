@@ -21,22 +21,12 @@
 
 <body>
 
-  <nav class="navbar navbar-inverse">
-    <div class="container-fluid">
-      <div class="navbar-header">
-        <a class="navbar-brand" href="#">MapApp...</a>
-      </div>
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-      </ul>
-    </div>
-  </nav>
+  <div id="nav-element"></div>
 
   <div class="container">
     <div class="row">
       <div class="col-md-4 col-sm-4 col-xs-12">
-        <ul id="detail-list" class="list-group">
-        </ul>
+        <div id="detail-view"></div>
       </div>
       <div class="col-md-8 col-sm-8 col-xs-12">
         <div class="map-cont">
@@ -54,12 +44,11 @@
         <div class="row">
           <div class="col-md-6 col-sm-6 col-xs-12">
             <h3>Shipments</h3>
-            <ul id=shipment-list class="list-group">
-            </ul>
+            <div id="shipment-view"></div>
           </div>
           <div class="col-md-6 col-sm-6 col-xs-12">
             <h3>Assets</h3>
-            <ul id="asset-list" class="list-group">
+            <div id="asset-view"></div>
             </ul>
           </div>
         </div>

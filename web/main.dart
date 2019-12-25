@@ -2,21 +2,26 @@ import 'dart:html';
 import 'dart:convert';
 import 'package:google_maps/google_maps.dart';
 
-UListElement detailListElement;
-UListElement shipmentListElement;
-UListElement assetListElement;
+import 'comman/list/list.dart';
+import 'comman/nav/nav.dart';
+import 'comman/map/map.dart';
+
 SpanElement statsDaysElement;
 
+DivElement detailView;
+DivElement shipmentView;
+DivElement assetView;
+
 void main() {
-  detailListElement = querySelector('#detail-list');
-  shipmentListElement = querySelector('#shipment-list');
-  assetListElement = querySelector('#asset-list');
   statsDaysElement = querySelector('#stats-days');
+
+  detailView = querySelector('#detail-view');
+  shipmentView = querySelector('#shipment-view');
+  assetView = querySelector('#asset-view');
+
+  showNavView();
   
-  final mapOptions = new MapOptions()
-    ..zoom = 3
-    ..center = new LatLng(28.396392,76.861994);
-  final map = new GMap(document.getElementById("map-canvas"), mapOptions);
+  final map = showMapView();
   
   loadContent(map);
 }
@@ -32,24 +37,11 @@ void loadContent (map) {
     
     statsDaysElement.text = "${statsDays}";
     
-    createList(detailList, detailListElement);
-    createList(shipmentList, shipmentListElement);
-    createList(assetList, assetListElement);
+    showListView(detailList, detailView);
+    showListView(shipmentList, shipmentView);
+    showListView(assetList, assetView);
     
     populateMap(data, map);
-  });
-}
-
-void createList (list, element) {
-  list.forEach((final key, final value) {
-    print("detailList: ${key} -> ${list[key]}");
-    var li = new LIElement();
-    var span = new SpanElement();
-    span.text = "${list[key]}";
-    li.text = "${key}:  ";
-    li.className = "list-group-item list-group-item-info";
-    li.append(span);
-    element.children.add(li);
   });
 }
 
@@ -60,10 +52,24 @@ void populateMap (data, map) {
     final lng = result["geometry"]["location"]["lng"];
     final name = result["name"];
     
-    new Marker(new MarkerOptions()
-    ..position = new LatLng(lat, lng)
-    ..map = map
-    ..title = name
-    );
+    new MapView().addMarkers(lat, lng, map, name);
   }
+}
+
+void showListView (list, element) {
+  ListView listView = new ListView();
+  final node = listView.loadContent(list);
+  element.children.add(node);
+}
+
+void showNavView () {
+  NavView navView = new NavView();
+  final nav = navView.loadNav();
+  querySelector("#nav-element").innerHtml = nav;
+}
+
+showMapView () {
+  MapView mapView = new MapView();
+  final map = mapView.loadMap();
+  return map;
 }
