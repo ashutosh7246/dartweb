@@ -9,7 +9,6 @@ class ListView {
     UListElement detailListElement = new UListElement();
     detailListElement.className = "list-group";
     list.forEach((final key, final value) {
-      print("detailList: ${key} -> ${list[key]}");
       var li = new LIElement();
       var span = new SpanElement();
       span.text = "${list[key]}";
